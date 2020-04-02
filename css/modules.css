@@ -1,0 +1,14 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#header-title h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.75em;
+  /* letter-spacing: 0.05em; */
+}
+
+#header-title h4 {
+  font-size: 0.6em;
+  text-transform: uppercase;
+}

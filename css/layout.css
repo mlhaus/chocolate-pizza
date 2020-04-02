@@ -15,7 +15,7 @@
 
 .grid-container{
   width: 100%; 
-  max-width: 960px;
+  max-width: 902px; /* Matches width of hr image */
   margin: 0 auto;   
 }
 
@@ -91,5 +91,11 @@ header > div {
 }
 
 #header-title h1, #header-title h4 {
+  margin: 0;
+}
+
+hr {
+  background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
+  height: 13px;
   margin: 0;
 }
