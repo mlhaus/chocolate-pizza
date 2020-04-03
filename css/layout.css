@@ -15,7 +15,7 @@
 
 .grid-container{
   width: 100%; 
-  max-width: 902px; /* Matches width of hr image */
+  max-width: 926px; /* Matches width of hr image + 24 for padding */
   margin: 0 auto;   
 }
 
@@ -87,6 +87,7 @@ color: white;
   display: flex;
 }
 
+/* Header section */
 header {
   display: flex;
   align-items: center;
@@ -121,4 +122,20 @@ hr {
   background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
   height: 13px;
   margin: 0;
+}
+
+/* Main section */
+
+main h2 {
+  margin: 0;
+}
+
+#post-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 100%;
 }

@@ -1,14 +1,31 @@
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
 }
 
 #header-title h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.75em;
+  font-size: 2em;
   /* letter-spacing: 0.05em; */
 }
 
 #header-title h4 {
   font-size: 0.6em;
   text-transform: uppercase;
+  color: #666;
+}
+
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.55em;
+}
+
+#post-info, #post-info a {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-content p {
+  text-indent: 24px;
 }
