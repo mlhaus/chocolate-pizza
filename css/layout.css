@@ -33,7 +33,7 @@
   width: 16.66%; 
   /*-- our gutter -- */
   padding: 12px; 
-  background-color: #FFDCDC;
+  /* background-color: #FFDCDC; */
 }
 
 .col-1{ width: 16.66%; }
@@ -44,7 +44,7 @@
 .col-6{ width: 100%;   }
 
 .outline, .outline *{
-  outline: 1px solid #F6A1A1; 
+  /* outline: 1px solid #F6A1A1;  */
 }
 
 /*-- some extra column content styling --*/

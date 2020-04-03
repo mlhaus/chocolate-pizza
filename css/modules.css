@@ -29,3 +29,7 @@ main h2 {
 #main-content p {
   text-indent: 24px;
 }
+
+.ingredients {
+  background-image: url("../assets/list-bg2.png");
+}
