@@ -121,7 +121,8 @@ header {
 hr {
   background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
   height: 13px;
-  margin: 0;
+  margin: 0 12px;
+  border: 0;
 }
 
 /* Main section */

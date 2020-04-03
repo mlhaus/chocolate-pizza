@@ -2,6 +2,10 @@ body {
   font-family: 'Lora', serif;
 }
 
+#header-title {
+  margin-left: 12px;
+}
+
 #header-title h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
@@ -16,11 +20,11 @@ body {
 
 main h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.55em;
+  font-size: 2.1em;
 }
 
-#post-info, #post-info a {
-  font-size: 0.7em;
+#post-info, #post-date, #post-info a {
+  font-size: 0.8em;
   text-transform: uppercase;
   color: #666;
   text-decoration: none;
