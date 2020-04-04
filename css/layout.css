@@ -144,3 +144,19 @@ main h2 {
 img {
   max-width: 100%;
 }
+
+#author-info {
+  display: flex;
+}
+
+#author-text {
+  margin: 0 12px;
+}
+#author-text h6 {
+  margin: 0;
+  font-size: 16px;
+}
+#author-text p {
+  color: #666;
+  font-size: 14px;
+}
