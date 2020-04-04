@@ -37,3 +37,12 @@ main h2 {
 .ingredients {
   background-image: url("../assets/list-bg2.png");
 }
+
+.ingredients ul {
+  margin: 0;
+  list-style: none;
+}
+
+.ingredients li {
+  line-height: 24px;
+}
