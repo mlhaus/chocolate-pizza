@@ -50,9 +50,9 @@
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
 /* background-color: #FFC2C2;  */
-padding: 0;
-margin: 0;
-text-align: center; 
+/* padding: 0; */
+/* margin: 0; */
+/* text-align: center;  */
 /* color: white;  */
 }
 
@@ -101,6 +101,10 @@ header {
   display: flex;
 }
 
+#header-title {
+  margin-left: 12px;
+}
+
 #header-title h1, #header-title h4 {
   margin: 0;
 }
@@ -108,10 +112,10 @@ header {
 #header-social-links ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 #header-social-links li {
@@ -123,10 +127,7 @@ header {
 }
 
 hr {
-  background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
-  height: 13px;
   margin: 0 12px;
-  border: 0;
 }
 
 /* Main section */
@@ -134,6 +135,19 @@ hr {
 main h2 {
   margin: 0;
 }
+
+/* Ingredients section */
+
+.ingredients {
+  margin: 0 12px 36px;
+}
+
+.ingredients ul {
+  margin: 0;
+  list-style: none;
+}
+
+/* Author section */
 
 #post-info {
   display: flex;
@@ -152,11 +166,18 @@ img {
 #author-text {
   margin: 0 12px;
 }
+
 #author-text h6 {
   margin: 0;
-  font-size: 16px;
 }
-#author-text p {
-  color: #666;
-  font-size: 14px;
+
+#share {
+  width: 100%;
+  padding: 12px;
+}
+
+/* Footer section */
+
+footer p {
+  margin: 18px 0 !important;
 }
