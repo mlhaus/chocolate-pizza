@@ -46,3 +46,8 @@ main h2 {
 .ingredients li {
   line-height: 24px;
 }
+
+input[type=checkbox]:checked + label {
+  color: #ccc;
+  text-decoration: line-through;
+} 
