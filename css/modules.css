@@ -1,0 +1,85 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+/* Header section */
+
+#header-title h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+#header-title h4 {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+hr {
+  background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
+  height: 13px;
+  border: 0;
+}
+
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.1em;
+}
+
+#post-info, #post-date, #post-info a {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-content p {
+  text-indent: 24px;
+}
+
+.ingredients {
+  background-image: url("../assets/list-bg2.png");
+  box-shadow: 0 5px 5px #ccc;
+}
+
+.ingredients li {
+  line-height: 24px;
+}
+
+input[type=checkbox]:checked + label {
+  color: #ccc;
+  text-decoration: line-through;
+} 
+
+#author-img {
+  min-width: 78px;
+}
+
+#share {
+  background: hsl(22, 84%, 55%);
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#share:hover {
+  background: hsl(22, 84%, 50%)
+}
+
+footer {
+  text-align: center;
+}
+
+#author-text h6 {
+  font-size: 16px;
+}
+
+#author-text p {
+  color: #666;
+  font-size: 14px;
+}
+
+footer p {
+  color: #999;
+  font-size: 12px;
+}

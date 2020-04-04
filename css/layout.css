@@ -1,0 +1,183 @@
+/* CSS Grid Code from http://j4n.co/blog/Creating-your-own-css-grid-system */
+
+/*-- setting border box on all elements inside the grid --*/
+.grid-container *{
+  box-sizing: border-box; 
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px; 
+  width: 16.66%; 
+  /*-- our gutter --*/
+  padding: 12px;
+}
+
+.grid-container{
+  width: 100%; 
+  max-width: 926px; /* Matches width of hr image + 24 for padding */
+  margin: 0 auto;   
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='col-'] {
+  float: left; 
+  min-height: 1px; 
+  width: 16.66%; 
+  /*-- our gutter -- */
+  padding: 12px; 
+  /* background-color: #FFDCDC; */
+}
+
+.col-1{ width: 16.66%; }
+.col-2{ width: 33.33%; }
+.col-3{ width: 50%;    }
+.col-4{ width: 66.66%; }
+.col-5{ width: 83.33%; }
+.col-6{ width: 100%;   }
+
+.outline, .outline *{
+  /* outline: 1px solid #F6A1A1;  */
+}
+
+/*-- some extra column content styling --*/
+[class*='col-'] > p {
+/* background-color: #FFC2C2;  */
+/* padding: 0; */
+/* margin: 0; */
+/* text-align: center;  */
+/* color: white;  */
+}
+
+@media all and (max-width:800px){
+  .col-1{ width: 33.33%;  }
+  .col-2{ width: 50%;     }
+  .row .col-2:last-of-type{
+    width: 100%; 
+  }
+  .col-3{ width: 100%;    }
+  .col-4{ width: 100%;    }
+  .col-5{ width: 100%;    }
+  .row .col-5 ~ .col-1{
+    width: 100%; 
+  }
+  .col-6{ width: 100%;    }
+
+  .ingredients .col-3 {
+    padding: 0 12px;
+  }
+
+}
+
+@media all and (max-width:650px){
+  header { display: block !important; }
+  #header-logo, #header-social-links ul { justify-content: center !important; }
+  .col-1{ width: 50%;     }
+  .col-2{ width: 100%;    }
+  .col-3{ width: 100%;    }
+  .col-4{ width: 100%;    }
+  .col-5{ width: 100%;    }
+  .col-6{ width: 100%;    }
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* Header section */
+header {
+  display: flex;
+  align-items: center;
+}
+
+#header-logo {
+  display: flex;
+}
+
+#header-title {
+  margin-left: 12px;
+}
+
+#header-title h1, #header-title h4 {
+  margin: 0;
+}
+
+#header-social-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#header-social-links li {
+  padding: 0 2px;
+}
+
+#header-social-links li:nth-child(7) {
+  padding-left: 10px;
+}
+
+hr {
+  margin: 0 12px;
+}
+
+/* Main section */
+
+main h2 {
+  margin: 0;
+}
+
+/* Ingredients section */
+
+.ingredients {
+  margin: 0 12px 36px;
+}
+
+.ingredients ul {
+  margin: 0;
+  list-style: none;
+}
+
+/* Author section */
+
+#post-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#author-info {
+  display: flex;
+}
+
+#author-text {
+  margin: 0 12px;
+}
+
+#author-text h6 {
+  margin: 0;
+}
+
+#share {
+  width: 100%;
+  padding: 12px;
+}
+
+/* Footer section */
+
+footer p {
+  margin: 18px 0 !important;
+}
