@@ -2,6 +2,12 @@ body {
   background: url('../assets/stars.jpg');
 }
 
+hr {
+  display: none;
+}
+
+/* Header section */
+
 header {
   background-color: #d61111;
   border: 5px solid #fff;
@@ -11,9 +17,7 @@ header {
   color: #fff;
 }
 
-hr {
-  display: none;
-}
+/* Main section */
 
 main {
   background-color: #fff;
@@ -22,6 +26,8 @@ main {
 main h2, #post-date, #post-info a {
   color: #002147;
 }
+
+/* Ingredients section */
 
 .ingredients {
   background: url("../assets/stripes.jpg") repeat;
@@ -40,6 +46,8 @@ main h2, #post-date, #post-info a {
   color: #002147;
 }
 
+/* Author section */
+
 .author {
   background-color: #fff;
   color: #002147;
@@ -47,11 +55,14 @@ main h2, #post-date, #post-info a {
 
 #share {
   background-color: #d61111;
+  color: #fff;
 }
 
 #share:hover {
   background-color: #002147;
 }
+
+/* Footer section */
 
 footer {
   background-color: #d61111;
