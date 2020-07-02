@@ -1,4 +1,5 @@
-/* CSS Grid Code from http://j4n.co/blog/Creating-your-own-css-grid-system */
+/* This file uses CSS Grid to layout the website content */
+/* The following CSS Grid code comes from http://j4n.co/blog/Creating-your-own-css-grid-system */
 
 /*-- setting border box on all elements inside the grid --*/
 .grid-container *{
@@ -87,8 +88,19 @@
   .col-6{ width: 100%;    }
 }
 
+/* This is the start of my custom layout styles */
+/* This file controls the website's display and box model (margin, padding, and width) properties */
+
 .flex-container {
   display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 0 12px;
 }
 
 /* Header section */
@@ -115,7 +127,6 @@ header {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  list-style: none;
 }
 
 #header-social-links li {
@@ -124,10 +135,6 @@ header {
 
 #header-social-links li:nth-child(7) {
   padding-left: 10px;
-}
-
-hr {
-  margin: 0 12px;
 }
 
 /* Main section */
@@ -144,7 +151,6 @@ main h2 {
 
 .ingredients ul {
   margin: 0;
-  list-style: none;
 }
 
 /* Author section */
@@ -153,10 +159,6 @@ main h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
-}
-
-img {
-  max-width: 100%;
 }
 
 #author-info {

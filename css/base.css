@@ -1,0 +1,61 @@
+/* This file controls the website's font-family, font-size, text-align, and list-style properties */
+
+body {
+  font-family: 'Lora', serif;
+}
+
+/* Header section */
+
+#header-title h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+#header-title h4 {
+  font-size: 0.6em;
+}
+
+#header-social-links ul {
+  list-style: none;
+}
+
+/* Main section */
+
+main h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.1em;
+}
+
+#post-info, #post-date, #post-info a {
+  font-size: 0.8em;
+}
+
+/* Ingredients section */
+
+.ingredients ul {
+  list-style: none;
+}
+
+/* Author section */
+
+#author-text h6 {
+  font-size: 16px;
+}
+
+#author-text p {
+  font-size: 14px;
+}
+
+#share {
+  font-size: 16px;
+}
+
+/* Footer section */
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+}

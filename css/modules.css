@@ -1,16 +1,6 @@
-body {
-  font-family: 'Lora', serif;
-}
-
 /* Header section */
 
-#header-title h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2em;
-}
-
 #header-title h4 {
-  font-size: 0.6em;
   text-transform: uppercase;
   color: #666;
 }
@@ -21,13 +11,7 @@ hr {
   border: 0;
 }
 
-main h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.1em;
-}
-
 #post-info, #post-date, #post-info a {
-  font-size: 0.8em;
   text-transform: uppercase;
   color: #666;
   text-decoration: none;
@@ -58,7 +42,6 @@ input[type=checkbox]:checked + label {
 #share {
   background: hsl(22, 84%, 55%);
   color: white;
-  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -66,20 +49,10 @@ input[type=checkbox]:checked + label {
   background: hsl(22, 84%, 50%)
 }
 
-footer {
-  text-align: center;
-}
-
-#author-text h6 {
-  font-size: 16px;
-}
-
 #author-text p {
   color: #666;
-  font-size: 14px;
 }
 
 footer p {
   color: #999;
-  font-size: 12px;
 }
