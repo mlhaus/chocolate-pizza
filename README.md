@@ -11,7 +11,7 @@ Students in DeltaV's Code 201 are asked to complete a time-boxed design comp ass
 - In Git, checkout a new branch.
 - Make regular Git commits with appropriately descriptive commit messages while you are working.
 - Push the final code to GitHub and merge the branch into master.
-- Deploy the page [on GitHub Pages](https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/http:// "on GitHub Pages").
+- Deploy the page [on GitHub Pages](https://mlhaus.github.io/chocolate-pizza/ "on GitHub Pages").
 
 ## Extensions of the assignment include:
 
