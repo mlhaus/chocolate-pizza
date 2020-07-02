@@ -1,0 +1,14 @@
+/* This file controls styling that changes upon user interaction */
+
+/* Ingredients section */
+
+input[type=checkbox]:checked + label {
+  color: #ccc;
+  text-decoration: line-through;
+} 
+
+/* Author section */
+
+#share:hover {
+  background: hsl(22, 84%, 50%);
+}

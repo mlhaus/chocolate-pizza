@@ -1,0 +1,62 @@
+body {
+  background: url('../assets/stars.jpg');
+}
+
+header {
+  background-color: #d61111;
+  border: 5px solid #fff;
+}
+
+#header-title h1, #header-title h4 {
+  color: #fff;
+}
+
+hr {
+  display: none;
+}
+
+main {
+  background-color: #fff;
+}
+
+main h2, #post-date, #post-info a {
+  color: #002147;
+}
+
+.ingredients {
+  background: url("../assets/stripes.jpg") repeat;
+  box-shadow: none;
+  margin: 0;
+}
+
+.ingredients ul {
+  border: 5px solid #002147;
+  padding: 0;
+}
+
+.ingredients li {
+  background-color: #fff;
+  padding-left: 5px;
+  color: #002147;
+}
+
+.author {
+  background-color: #fff;
+  color: #002147;
+}
+
+#share {
+  background-color: #d61111;
+}
+
+#share:hover {
+  background-color: #002147;
+}
+
+footer {
+  background-color: #d61111;
+}
+
+footer p {
+  color: #fff;
+}

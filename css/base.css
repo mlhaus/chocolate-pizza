@@ -1,4 +1,4 @@
-/* This file controls the website's font-family, font-size, text-align, and list-style properties */
+/* This file controls the website's text properties such as: font-family, font-size, color, text-align, and list-style  */
 
 body {
   font-family: 'Lora', serif;
@@ -13,6 +13,8 @@ body {
 
 #header-title h4 {
   font-size: 0.6em;
+  text-transform: uppercase;
+  color: #666;
 }
 
 #header-social-links ul {
@@ -28,12 +30,23 @@ main h2 {
 
 #post-info, #post-date, #post-info a {
   font-size: 0.8em;
+  text-transform: uppercase;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-content p {
+  text-indent: 24px;
 }
 
 /* Ingredients section */
 
 .ingredients ul {
   list-style: none;
+}
+
+.ingredients li {
+  line-height: 24px;
 }
 
 /* Author section */
@@ -44,10 +57,14 @@ main h2 {
 
 #author-text p {
   font-size: 14px;
+  color: #666;
 }
 
 #share {
   font-size: 16px;
+  background: hsl(22, 84%, 55%);
+  color: white;
+  text-transform: uppercase;
 }
 
 /* Footer section */
@@ -58,4 +75,5 @@ footer {
 
 footer p {
   font-size: 12px;
+  color: #999;
 }

@@ -89,7 +89,7 @@
 }
 
 /* This is the start of my custom layout styles */
-/* This file controls the website's display and box model (margin, padding, and width) properties */
+/* This file controls the website's display and box model (margin, padding, border, height and width) properties */
 
 .flex-container {
   display: flex;
@@ -100,6 +100,8 @@ img {
 }
 
 hr {
+  height: 13px;
+  border: 0;
   margin: 0 12px;
 }
 

@@ -1,58 +1,18 @@
-/* Header section */
-
-#header-title h4 {
-  text-transform: uppercase;
-  color: #666;
-}
+/* This file controls individual component's properties */
 
 hr {
-  background: url("https://mlhaus.github.io/cr-301d5/class-00/lab-c/lab/img/hr.png") no-repeat center;
-  height: 13px;
-  border: 0;
+  background: url("../assets/hr.png") no-repeat center;
 }
 
-#post-info, #post-date, #post-info a {
-  text-transform: uppercase;
-  color: #666;
-  text-decoration: none;
-}
-
-#main-content p {
-  text-indent: 24px;
-}
+/* Ingredients section */
 
 .ingredients {
-  background-image: url("../assets/list-bg2.png");
+  background: url("../assets/list-bg2.png") repeat-y;
   box-shadow: 0 5px 5px #ccc;
 }
 
-.ingredients li {
-  line-height: 24px;
-}
-
-input[type=checkbox]:checked + label {
-  color: #ccc;
-  text-decoration: line-through;
-} 
+/* Author section */
 
 #author-img {
   min-width: 78px;
-}
-
-#share {
-  background: hsl(22, 84%, 55%);
-  color: white;
-  text-transform: uppercase;
-}
-
-#share:hover {
-  background: hsl(22, 84%, 50%)
-}
-
-#author-text p {
-  color: #666;
-}
-
-footer p {
-  color: #999;
 }
